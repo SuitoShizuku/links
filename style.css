@@ -7,6 +7,11 @@
     justify-content: center;
     font-family: 'ヒラギノ角ゴシック', 'Meiryo UI';
     user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
 }
 
 .can-selection {
