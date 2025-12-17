@@ -2,6 +2,7 @@
     background-image: url("./images/background.png");
     background-size: cover;
     background-position-x: 50%;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     font-family: 'ヒラギノ角ゴシック', 'Meiryo UI';
