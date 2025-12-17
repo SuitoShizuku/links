@@ -9,9 +9,22 @@
     user-select: none;
 }
 
+.can-selection {
+    user-select: text;
+}
+
 .center {
     text-align: center;
     margin: 0 auto;
+    width: 400px;
+}
+
+
+.section {
+    -webkit-text-stroke-width: 1px;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .my-icon {
@@ -24,11 +37,11 @@
 }
 
 .description {
-    width: 400px;
+    width: 20rem;
     height: 80px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.3);
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 auto;
     position: relative;
 }
@@ -37,8 +50,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -120%);
-    width: 300px;
+    transform: translate(-50%, -140%);
+    width: 15em;
 }
 
 .name {
@@ -49,66 +62,62 @@
     height: 50px;
 }
 
-.section {
-    border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.3);
-    background-repeat: no-repeat;
-    width: 600px;
-}
-
 .link-space {
-    height: 180px;
+    height: 9rem;
 }
 
 .link {
-    width: 400px;
-    height: 150px;
+    width: 20rem;
+    height: 7rem;
     background-color: rgba(255, 255, 255, 0.3);
     color: #000;
     border-radius: 30px;
     border-width: 0px;
     position: relative;
+    transition: 0.2s;
 }
 
 .link:hover {
-    border-color: rgb(26, 39, 87);
-    border-width: 3px;
+    transform: scale(1.1);
+}
+
+@keyframes scale-up {
+    to {
+        transform: scale(1.1);
+    }
 }
 
 .link-icon {
-    width: 100px;
+    width: 4rem;
+    height: 4rem;
     position: absolute;
     top: 50%;
     left: 0%;
-    transform: translate(20%, -50%);
+    transform: translate(40%, -50%);
 }
 
 .link-name {
-    font-size: 45px;
+    font-size: 30px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     color: #000;
     text-align: left;
     position: absolute;
-    top: 0%;
-    left: 35%;
-    transform: translate(0%, 90%);
-}
-
-.link-subname {
-    font-size: 20px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-    color: #000;
-    text-align: left;
-    position: absolute;
-    top: 50%;
+    top: 20%;
     left: 35%;
     transform: translate(0%, 0%);
 }
-.section {
+
+.link-subtext {
+    font-size: 18px;
     -webkit-text-stroke-width: 1px;
-    font-size: 25px;
+    -webkit-text-stroke-color: #666;
+    color: #666;
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(0%, 0%);
 }
 
 .footer {
@@ -128,8 +137,4 @@
     top: 60%;
     left: 0%;
     transform: translate(0%, 0%);
-}
-
-.can-selection {
-    user-select: text;
 }
