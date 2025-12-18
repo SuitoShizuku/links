@@ -17,18 +17,49 @@
     user-select: text;
 }
 
-.center {
-    text-align: center;
-    margin: 0 auto;
-    width: 400px;
+@media screen and (max-width: 900px) {
+
+    .center {
+        text-align: center;
+        margin: 0 auto;
+        min-width: 450px;
+    }
+
+
+    .section {
+        margin: auto;
+        max-width: 400px;
+        -webkit-text-stroke-width: 1px;
+        font-size: 25px;
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
 }
+@media screen and (min-width: 901px) {
+
+    .center {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 900px;
+        display: flex;
+        justify-content: space-around;
+    }
 
 
-.section {
-    -webkit-text-stroke-width: 1px;
-    font-size: 25px;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.3);
+    .section {
+        margin: auto;
+        max-width: 400px;
+        -webkit-text-stroke-width: 1px;
+        font-size: 25px;
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .side-view{
+        width: 430px;
+    }
+
 }
 
 .my-icon {
