@@ -1,5 +1,27 @@
-function loaded() {
-    const rawData = fetch("./portfolio_raw.json")
+// html読み込み
+async function loaded() {
+    let contentsField = document.getElementById("contentfield")
+    // データベース読み込み
+    // const rawData = fetch("./portfolio_raw.json");
+    const rawData = await fetch("https://links.suitomizu.com/portfolio_raw.json");
+    const jsonData = JSON.parse(rawData);
+    // データベースのコンテンツ数分繰り返す
+    for (let i = 0; i < jsonData.length; i++) {
+        const element = jsonData[i];
+        // コンテンツを作成
+        let mainContent = `<p class="name">${element.name}</p><u class="date">${element.date}</u>`
+        if(element.category == "movie"){
+            if(element.url.match(/youtu.be/)){
+                mainContent = mainContent + `<iframe width="560" height="315" src="https://www.youtube.com/embed/${element.url.split("youtu.be/")[1]}"title="YouTube video player" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+            }
+        }
+        let credits = ""
+        for (const key in element) {
+            if (!Object.hasOwn(element[key], key)) continue;
+            credits = credits+`${key} ${element[key]}<br>`
+        }
+        contentsField.innerHTML = contentsField.innerHTML + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`
+    }
 }
 
 window.onload = loaded();
