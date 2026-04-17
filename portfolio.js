@@ -34,4 +34,6 @@ function loaded() {
         main()
     }, 1000)
 }
-window.onload = loaded();
+window.addEventListener('load', function(){
+    loaded();
+})
