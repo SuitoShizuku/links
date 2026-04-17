@@ -1,5 +1,3 @@
-const { createElement } = require("react");
-
 //database
 const databaseAddress = "./portfolio_raw.json"
 // html読み込み
