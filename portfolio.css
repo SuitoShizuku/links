@@ -1,0 +1,116 @@
+:root {
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-position-x: 50%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: 'ヒラギノ角ゴシック', 'Meiryo UI';
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+
+@media screen and (max-width: 1400px) {
+.content {
+    margin: auto;
+    margin-bottom: 2.5rem;
+    width: 40rem;
+    -webkit-text-stroke-width: 1px;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.contentfield{
+    display: block;
+}
+}
+@media screen and (min-width: 1401px) {
+.content {
+    margin: auto;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 2.5rem;
+    width: 40rem;
+    -webkit-text-stroke-width: 1px;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.contentfield{
+    display: flex;
+}
+}
+
+.content iframe {
+    margin: 2.5rem;
+}
+
+.name {
+    display: block;
+    margin: 2.5rem;
+    margin-top: -1rem;
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    color: #000;
+    height: 0px;
+}
+
+.content u {
+    text-align: right;
+    display: block;
+    margin-right: 2.5rem;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0.5px;
+    height: 0px;
+}
+
+.description {
+    margin: 2.5rem;
+    margin-top: -2rem;
+    margin-bottom: 3.5rem;
+    height: 12rem;
+    font-size: 1.5rem;
+}
+
+.commentfield {
+    margin: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: -0.25rem;
+    height: 5.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.comment {
+    font-size: 1.2rem;
+    height: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #1187aa
+}
+
+.footer {
+    height: 130px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-text {
+    background: rgba(255, 255, 255, 0);
+    border-top: 3px solid rgba(255, 255, 255, 0.3);
+    color: #555;
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 60%;
+    left: 0%;
+    transform: translate(0%, 0%);
+}
