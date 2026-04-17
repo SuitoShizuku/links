@@ -1,7 +1,7 @@
 //database
 const databaseAddress = "./portfolio_raw.json"
 // html読み込み
-async function loaded() {
+async function main() {
     let contentsField = document.getElementById("contentfield")
     // データベース読み込み
     fetch(databaseAddress, {
@@ -29,4 +29,9 @@ async function loaded() {
         })
 }
 
+function loaded() {
+    setTimeout(() => {
+        loaded()
+    }, 1000)
+}
 window.onload = loaded();
