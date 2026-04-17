@@ -3,7 +3,6 @@ const databaseAddress = "./portfolio_raw.json"
 // html読み込み
 function main() {
     let contentsField = document.getElementById("contentfield");
-    console.log(contentsField)
     // データベース読み込み
     fetch(databaseAddress, {
         method: "GET",
