@@ -31,7 +31,7 @@ async function main() {
 
 function loaded() {
     setTimeout(() => {
-        loaded()
+        main()
     }, 1000)
 }
 window.onload = loaded();
