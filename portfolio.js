@@ -3,6 +3,7 @@ const databaseAddress = "./portfolio_raw.json"
 // html読み込み
 async function main() {
     let contentsField = document.getElementById("contentfield")
+    console.log(contentsField)
     // データベース読み込み
     fetch(databaseAddress, {
         method: "GET",
@@ -12,11 +13,10 @@ async function main() {
             for (let i = 0; i < jsonData.length; i++) {
                 const element = jsonData[i];
                 // コンテンツを作成
-                var mainContent = `<p class="name">${element.name}</p><u class="date">${element.date}</u>`
-                if (element.category == "movie") {
+                let mainContent = `<p class="name">${element.name}</p><u class="date">${element.date}</u>`
+                if (element.category == "MOVIE") {
                     if (element.url.match(/youtu.be/)) {
                         mainContent = mainContent + `<iframe width="560" height="315" src="https://www.youtube.com/embed/${element.url.split("youtu.be/")[1]}"title="YouTube video player" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
-                        console.log(mainContent)
                     }
                 }
                 let credits = ""
