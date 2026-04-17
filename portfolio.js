@@ -2,7 +2,7 @@
 const databaseAddress = "./portfolio_raw.json"
 // html読み込み
 function main() {
-    let contentsField = document.getElementById("contentfield");
+    let loadingContent = document.getElementById("loading");
     // データベース読み込み
     fetch(databaseAddress, {
         method: "GET",
@@ -23,9 +23,8 @@ function main() {
                     if (!Object.hasOwn(element[key], key)) continue;
                     credits = credits + `${key} ${element[key]}<br>`
                 }
-                console.log(contentsField)
                 console.log(`<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`)
-                contentsField.innerHTML = contentsField.innerHTML.slice(-6) + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`+"</div>"
+                loadingContent.innerHTML = loadingContent.innerHTML + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`
             }
         })
 }
