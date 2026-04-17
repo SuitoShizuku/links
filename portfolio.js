@@ -21,7 +21,8 @@ function main() {
                 let credits = ""
                 for (const key in element.credit) {
                     // if (!Object.hasOwn(element[key], key)) continue;
-                    credits = credits + `${key} ${element[key].toString()}<br>`
+                    console.log(typeof(element[key]))
+                    credits = credits + `${key} ${element[key]}<br>`
                 }
                 console.log(`<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`)
                 loadingContent.innerHTML = loadingContent.innerHTML + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`
