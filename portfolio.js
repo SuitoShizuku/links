@@ -1,3 +1,5 @@
+const { createElement } = require("react");
+
 //database
 const databaseAddress = "./portfolio_raw.json"
 // html読み込み
@@ -24,6 +26,7 @@ async function main() {
                     credits = credits + `${key} ${element[key]}<br>`
                 }
                 console.log(contentsField)
+                console.log(`<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`)
                 contentsField.innerHTML = contentsField.innerHTML + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`
             }
         })
