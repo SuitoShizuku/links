@@ -18,10 +18,10 @@ function main() {
                         mainContent = mainContent + `<iframe width="560" height="315" src="https://www.youtube.com/embed/${element.url.split("youtu.be/")[1]}"title="YouTube video player" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
                     }
                 }
+                console.log(element)
                 let credits = ""
                 for (const key in element.credit) {
                     // if (!Object.hasOwn(element[key], key)) continue;
-                    console.log(typeof(element[key]))
                     credits = credits + `${key} ${element[key]}<br>`
                 }
                 console.log(`<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`)
