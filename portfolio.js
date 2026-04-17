@@ -2,7 +2,7 @@
 const databaseAddress = "./portfolio_raw.json"
 // html読み込み
 function main() {
-    let loadingContent = document.getElementById("loading");
+    let loadingContent = document.getElementById("contentfield");
     // データベース読み込み
     fetch(databaseAddress, {
         method: "GET",
@@ -20,8 +20,9 @@ function main() {
                 }
                 let credits = ""
                 for (const key in element) {
-                    if (!Object.hasOwn(element[key], key)) continue;
+                    // if (!Object.hasOwn(element[key], key)) continue;
                     credits = credits + `${key} ${element[key]}<br>`
+                    console.log(key+"and"+element[key])
                 }
                 console.log(`<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`)
                 loadingContent.innerHTML = loadingContent.innerHTML + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`
