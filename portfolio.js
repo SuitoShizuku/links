@@ -32,7 +32,7 @@ async function main() {
 function loaded() {
     setTimeout(() => {
         main()
-    }, 1000)
+    }, 2000)
 }
 window.addEventListener('load', function(){
     loaded();
