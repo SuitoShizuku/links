@@ -1,7 +1,7 @@
 //database
 const databaseAddress = "./portfolio_raw.json"
 // html読み込み
-async function main() {
+function main() {
     let contentsField = document.getElementById("contentfield");
     console.log(contentsField)
     // データベース読み込み
