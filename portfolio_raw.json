@@ -1,5 +1,37 @@
 [
     {
+        "name": "初恋日記",
+        "date": "2025/07/14",
+        "url": "https://youtu.be/PcdPvWNfmHI",
+        "category": "MOVIE",
+        "Author": "翡花",
+        "credit": {
+            "オリジナル": "https://youtu.be/ZhjfsY49JhY",
+            "MIX": "Rio_Neko",
+            "Mastering": "Rio_Neko",
+            "歌唱": "翡花",
+            "イラスト": "翡花",
+            "動画": "Shizuku"
+        },
+        "comment": "テキスト表示表現にこだわった"
+    },
+    {
+        "name": "少女レイ",
+        "date": "2025/10/17",
+        "url": "https://youtu.be/ASCPONSCaRc",
+        "category": "MOVIE",
+        "Author": "翡花",
+        "credit": {
+            "オリジナル": "https://youtu.be/JW3N-HvU0MA",
+            "MIX": "Ostrich",
+            "Mastering": "Ostrich",
+            "歌唱": "翡花",
+            "イラスト": "伊勢崎透",
+            "動画": "Shizuku"
+        },
+        "comment": "元MV再現に注力した"
+    },
+    {
         "name": "ココロ・アップデート",
         "date": "2026/01/23",
         "url": "https://youtu.be/biEyyRZSUsY",
