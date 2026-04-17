@@ -25,7 +25,7 @@ function main() {
                 }
                 console.log(contentsField)
                 console.log(`<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`)
-                contentsField.innerHTML = contentsField.innerHTML + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`
+                contentsField.innerHTML = contentsField.innerHTML.slice(-6) + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`+"</div>"
             }
         })
 }
