@@ -2,7 +2,7 @@
 const databaseAddress = "./portfolio_raw.json"
 // html読み込み
 async function loaded() {
-    // let contentsField = document.getElementById("contentfield")
+    let contentsField = document.getElementById("contentfield")
     // データベース読み込み
     fetch(databaseAddress, {
         method: "GET",
@@ -23,7 +23,8 @@ async function loaded() {
                     if (!Object.hasOwn(element[key], key)) continue;
                     credits = credits + `${key} ${element[key]}<br>`
                 }
-                document.getElementById("contentfield").innerHTML = document.getElementById("contentfield").innerHTML + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`
+                console.log(contentsField)
+                contentsField.innerHTML = contentsField.innerHTML + `<div class="content"><br>${mainContent}<p class="description">${credits}</p><div class="commentfield"><p class="comment">Comment</p>${element.comment}</div><br>`
             }
         })
 }
