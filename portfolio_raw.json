@@ -10,10 +10,10 @@
                 "credit": {
                         "作曲": "ぱちた",
                         "編曲": "ぱちた",
-                        "イラスト": "シニカケ",
-                        "MIX": "フラウト",
-                        "Mastering": "フラウト",
-                        "動画": "Shizuku"
+                        "イラスト": "シニカケ<a>https://x.com/Kiyobiva</a>",
+                        "MIX": "フラウト<a>https://link.flauto0121.com/</a>",
+                        "Mastering": "フラウト<a>https://link.flauto0121.com/</a>",
+                        "動画": "Shizuku<a>https://suitomizu.com</a>"
                 }
         },
         {
@@ -25,15 +25,15 @@
                 "original": "",
                 "comment": "作りたい動画を作った感",
                 "credit": {
-                        "作曲": "あず",
-                        "編曲": "あず",
-                        "作詞": "翡花",
-                        "歌唱": "甘楽",
-                        "イラスト": "シニカケ",
-                        "MIX": "あず",
-                        "Mastering": "あず",
-                        "動画": "Shizuku",
-                        "Direction": "フラウト"
+                        "作曲": "あず<a>https://x.com/raintoaoisora</a>",
+                        "編曲": "あず<a>https://x.com/raintoaoisora</a>",
+                        "作詞": "翡花<a>https://x.com/Hibana__na</a>",
+                        "歌唱": "甘楽<a>https://x.com/kanra214</a>",
+                        "イラスト": "シニカケ<a>https://x.com/Kiyobiva</a>",
+                        "MIX": "あず<a>https://x.com/raintoaoisora</a>",
+                        "Mastering": "あず<a>https://x.com/raintoaoisora</a>",
+                        "動画": "Shizuku<a>https://suitomizu.com</a>",
+                        "Direction": "フラウト<a>https://link.flauto0121.com/</a>"
                 }
         },
         {
@@ -45,11 +45,11 @@
                 "original": "https://youtu.be/JW3N-HvU0MA",
                 "comment": "なるべく原作意識です",
                 "credit": {
-                        "歌唱": "翡花",
-                        "イラスト": "伊勢崎透",
-                        "MIX": "Ostrich",
-                        "Mastering": "Ostrich",
-                        "動画": "Shizuku"
+                        "歌唱": "翡花<a>https://x.com/Hibana__na</a>",
+                        "イラスト": "伊勢崎透<a>https://x.com/Isesaki_Tooru</a>",
+                        "MIX": "Ostrich<a>https://x.com/ex_flying_ost</a>",
+                        "Mastering": "Ostrich<a>https://x.com/ex_flying_ost</a>",
+                        "動画": "Shizuku<a>https://suitomizu.com</a>"
                 }
         },
         {
@@ -61,11 +61,11 @@
                 "original": "https://youtu.be/ZhjfsY49JhY",
                 "comment": "テキスト背景の動きをこだわりました",
                 "credit": {
-                        "歌唱": "翡花",
-                        "イラスト": "翡花",
-                        "MIX": "Rio_Neko",
-                        "Mastering": "Rio_Neko",
-                        "動画": "Shizuku"
+                        "歌唱": "翡花<a>https://x.com/Hibana__na</a>",
+                        "イラスト": "翡花<a>https://x.com/Hibana__na</a>",
+                        "MIX": "Rio_Neko<a>https://x.com/Rio_Neko_music</a>",
+                        "Mastering": "Rio_Neko<a>https://x.com/Rio_Neko_music</a>",
+                        "動画": "Shizuku<a>https://suitomizu.com</a>"
                 }
         },
         {
@@ -77,11 +77,11 @@
                 "original": "https://youtu.be/YCoauaN_CMI",
                 "comment": "初めてのAfterEffectです",
                 "credit": {
-                        "歌唱": "翡花",
-                        "イラスト": "彼岸雨",
-                        "MIX": "Rio_Neko",
-                        "Mastering": "Rio_Neko",
-                        "動画": "Shizuku"
+                        "歌唱": "翡花<a>https://x.com/Hibana__na</a>",
+                        "イラスト": "彼岸雨<a>https://x.com/h1gan_ame</a>",
+                        "MIX": "Rio_Neko<a>https://x.com/Rio_Neko_music</a>",
+                        "Mastering": "Rio_Neko<a>https://x.com/Rio_Neko_music</a>",
+                        "動画": "Shizuku<a>https://suitomizu.com</a>"
                 }
         }
 ]
