@@ -26,9 +26,10 @@
 }
 #contentfield{
     display: block;
+    max-width: 701px;
 }
 }
-@media screen and (min-width: 1401px) {
+@media screen and (min-width: 1401px) and (max-width: 2100px) {
 .content {
     margin: auto;
     margin-left: 1.25rem;
@@ -43,6 +44,25 @@
 #contentfield{
     display: flex;
     flex-wrap: wrap;
+    max-width: 1401px;
+}
+}
+@media screen and (min-width: 2101px) {
+.content {
+    margin: auto;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 2.5rem;
+    width: 40rem;
+    -webkit-text-stroke-width: 1px;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#contentfield{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2101px;
 }
 }
 
