@@ -80,7 +80,7 @@
 
 .commentfield {
     margin: 2.5rem;
-    margin-top: 2.5rem;
+    margin-top: -2.5rem;
     margin-bottom: -0.25rem;
     height: 5.5rem;
     background-color: rgba(255, 255, 255, 0.3);
