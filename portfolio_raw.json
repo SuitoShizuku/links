@@ -1,52 +1,77 @@
 [
-    {
-        "name": "初恋日記",
-        "date": "2025/07/14",
-        "url": "https://youtu.be/PcdPvWNfmHI",
-        "category": "MOVIE",
-        "Author": "翡花",
-        "credit": {
-            "オリジナル": "https://youtu.be/ZhjfsY49JhY",
-            "MIX": "Rio_Neko",
-            "Mastering": "Rio_Neko",
-            "歌唱": "翡花",
-            "イラスト": "翡花",
-            "動画": "Shizuku"
+        {
+                "name": "なんてったって最強GIRL！ / 宣伝",
+                "date": "2026/3/27",
+                "url": "https://youtu.be/nlNQCA3Q0uk",
+                "category": "MOVIE",
+                "author": "Rio_Neko Production",
+                "credit": {
+                        "作曲": "ぱちた",
+                        "編曲": "ぱちた",
+                        "イラスト": "シニカケ",
+                        "MIX": "フラウト",
+                        "Mastering": "フラウト",
+                        "動画": "Shizuku"
+                }
         },
-        "comment": "テキスト表示表現にこだわった"
-    },
-    {
-        "name": "少女レイ",
-        "date": "2025/10/17",
-        "url": "https://youtu.be/ASCPONSCaRc",
-        "category": "MOVIE",
-        "Author": "翡花",
-        "credit": {
-            "オリジナル": "https://youtu.be/JW3N-HvU0MA",
-            "MIX": "Ostrich",
-            "Mastering": "Ostrich",
-            "歌唱": "翡花",
-            "イラスト": "伊勢崎透",
-            "動画": "Shizuku"
+        {
+                "name": "ココロ・アップデート",
+                "date": "2026/1/23",
+                "url": "https://youtu.be/biEyyRZSUsY",
+                "category": "MOVIE",
+                "author": "Rio_Neko Production",
+                "credit": {
+                        "作曲": "あず",
+                        "編曲": "あず",
+                        "作詞": "翡花",
+                        "歌唱": "甘楽",
+                        "イラスト": "シニカケ",
+                        "MIX": "あず",
+                        "Mastering": "あず",
+                        "動画": "Shizuku",
+                        "Direction": "フラウト"
+                }
         },
-        "comment": "元MV再現に注力した"
-    },
-    {
-        "name": "ココロ・アップデート",
-        "date": "2026/01/23",
-        "url": "https://youtu.be/biEyyRZSUsY",
-        "category": "MOVIE",
-        "Author": "Rio_Neko Production",
-        "credit": {
-            "作曲": "あず",
-            "編曲": "あず",
-            "MIX": "あず",
-            "Mastering": "あず",
-            "作詞": "翡花",
-            "歌唱": "甘楽",
-            "イラスト": "シニカケ",
-            "動画": "Shizuku"
+        {
+                "name": "少女レイ / cover",
+                "date": "2025/10/17",
+                "url": "https://youtu.be/ASCPONSCaRc",
+                "category": "MOVIE",
+                "author": "翡花",
+                "credit": {
+                        "歌唱": "翡花",
+                        "イラスト": "伊勢崎透",
+                        "MIX": "Ostrich",
+                        "Mastering": "Ostrich",
+                        "動画": "Shizuku"
+                }
         },
-        "comment": "1枚絵のテキストモーションにこだわりました。"
-    }
+        {
+                "name": "初恋日記 / cover",
+                "date": "2025/7/14",
+                "url": "https://youtu.be/PcdPvWNfmHI",
+                "category": "MOVIE",
+                "author": "翡花",
+                "credit": {
+                        "歌唱": "翡花",
+                        "イラスト": "翡花",
+                        "MIX": "Rio_Neko",
+                        "Mastering": "Rio_Neko",
+                        "動画": "Shizuku"
+                }
+        },
+        {
+                "name": "三日月ステップ / cover",
+                "date": "2025/3/26",
+                "url": "https://youtu.be/zytCFaN7e0k",
+                "category": "MOVIE",
+                "author": "翡花",
+                "credit": {
+                        "歌唱": "翡花",
+                        "イラスト": "彼岸雨",
+                        "MIX": "Rio_Neko",
+                        "Mastering": "Rio_Neko",
+                        "動画": "Shizuku"
+                }
+        }
 ]
