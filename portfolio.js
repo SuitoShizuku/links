@@ -1,3 +1,4 @@
+// https://docs.google.com/spreadsheets/d/1PE6vpnltd4_RjCGh9lsO_CVbknpr043_Uj2hlxsMuAM/edit?usp=sharing
 //database
 const databaseAddress = "./portfolio_raw.json"
 // html読み込み
@@ -31,4 +32,4 @@ function main() {
 }
 window.addEventListener('load', function(){
     main();
-})
+});
